@@ -1,0 +1,771 @@
+/*---------Admin Register-------------*/
+
+#RegisterBody 
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(252, 251, 251);
+}
+
+#registerLogo
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 60%;
+}
+
+#logoContainer 
+{
+    display: flex;
+    justify-content: center;
+}
+
+#registerContainer 
+{
+    width: 400px;
+    padding: 20px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    box-shadow: 0 5px 10px rgba(0, 0, 1, 0.1);
+}
+
+#Register label 
+{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.registerInfo 
+{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.registerSubmit
+{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: #0078d7;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.registerSubmit:hover 
+{
+    background-color: #005999;
+}
+
+#Register p 
+{
+    text-align: left;
+    margin-bottom: 0;
+}
+
+#Register a 
+{
+    color: #0078d7;
+    text-decoration: none;
+}
+
+#Register a:hover 
+{
+    text-decoration: underline;
+}
+
+/*---------Timer-------------*/
+
+#timer
+{
+	text-align: center;
+	margin-top: 18%;
+}
+
+#countDown
+{
+	font-weight: bolder;
+}
+
+/*---------Admin Login-------------*/
+
+#loginBody 
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(252, 251, 251);
+}
+
+#loginLogo
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 60%;
+}
+
+#logoContainer
+{
+    display: flex;
+    justify-content: center;
+}
+
+#loginContainer 
+{
+    width: 400px;
+    padding: 20px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    box-shadow: 0 5px 10px rgba(0, 0, 1, 0.1);
+}
+
+#login label 
+{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.loginInfo 
+{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.loginSubmit
+{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: #0078d7;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.loginSubmit:hover 
+{
+    background-color: #005999;
+}
+
+#login p 
+{
+    text-align: left;
+    margin-bottom: 0;
+}
+
+#login a 
+{
+    color: #0078d7;
+    text-decoration: none;
+}
+
+#login a:hover 
+{
+    text-decoration: underline;
+}
+
+/*---------Verifications-------------*/
+
+.tabs 
+{
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.tabButton 
+{
+    background-color: #f4f4f4;
+    color: darkgray;
+    border: none;
+    padding: 10px;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+}
+
+.tabButton:hover 
+{
+  background-color: blue;
+  color: white;
+}
+
+.tabButton.active 
+{
+  background-color: royalblue;
+  color: white;
+}
+
+.tabContent 
+{
+  padding: 15px;
+  display: none;
+}
+
+.tabContent.active 
+{
+  display: block;
+}
+
+.listingTitle
+{
+    margin-bottom: -2px;
+    margin-left: 4px;
+}
+
+.listingTable 
+{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 5px;
+}
+
+.listingTable th, .listingTable td 
+{
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.listingTable th 
+{
+    background-color: #565EEE;
+    color: white;
+    font-weight: bold;
+}
+
+.listingTable tr:nth-child(even) 
+{
+    background-color: #f2f2f2;
+}
+
+.listingTable tr:nth-child(odd) 
+{
+    background-color: #ddd;
+}
+
+.listingTable tr:hover 
+{
+    background-color: #ccc;
+}
+
+.listingTable td a 
+{
+    color: blue;
+    text-decoration: none;
+}
+
+.listingTable td a:hover 
+{
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.scrollContainer 
+{
+    width: 97%;
+    overflow-x: auto;
+}
+
+.scroll 
+{
+    white-space: nowrap;
+}
+
+/*---------Rules-------------*/
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+    position: relative;
+    border: 1px solid gray;
+}
+
+h2 {
+    color: #4A90E2;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.ruleTable {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 12px;
+}
+.ruleTable th, .ruleTable td {
+    padding: 16px;
+    text-align: left;
+}
+.ruleTable th {
+    background-color: #ffffff;
+    color: #484848;
+    font-weight: 600;
+    border-bottom: 1px solid #ebebeb;
+    padding: 12px 16px;
+}
+.ruleTable tr:not(:first-child) {
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border: 1px solid #000;
+    border-radius: 12px;
+}
+.ruleTable tr:not(:first-child) td:first-child {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.ruleTable tr:not(:first-child) td:last-child {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.ruleTable tr:not(:first-child):hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.ruleTable tr.selected {
+    background-color: #f0f8ff;
+    border-color: #328ef8;
+}
+
+#iconCell
+{
+    font-size: 190%;
+}
+
+.deleteButton {
+    float: right;
+    margin-left: 20px;
+    display: none;
+}
+.deleteButton.visible {
+    display: flex;
+    animation: fadeIn 0.3s;
+}
+
+.addButton {
+    float: right
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.btn {
+    display: inline-block;
+    padding: 10px 16px;
+    margin: 0 8px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+.btnAdd{ 
+    background-color: #4A90E2;
+}
+.btnDelete { 
+    background-color: #FF5A5F; 
+}
+.btnAdd:hover {
+    background-color: #3A80D2;
+}
+.btnDelete:hover {
+    background-color: #ff3b40;
+}
+
+#addRulePopup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateY(-60px);
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100px;
+    background-color: rgba(0,0,0,0.5);
+}
+.popupContent {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 12px;
+    width: 80%;
+    max-width: 500px;
+}
+.closePopup {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.closePopup:hover {
+    color: black;
+}
+
+/*---------Country-------------*/
+
+.countryTable {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 12px;
+}
+.countryTable th, .countryTable td {
+    padding: 16px;
+    text-align: left;
+}
+.countryTable th {
+    background-color: #ffffff;
+    color: #484848;
+    font-weight: 600;
+    border-bottom: 1px solid #ebebeb;
+    padding: 12px 16px;
+}
+.countryTable tr:not(:first-child) {
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border: 1px solid #000;
+    border-radius: 12px;
+}
+.countryTable tr:not(:first-child) td:first-child {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.countryTable tr:not(:first-child) td:last-child {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.countryTable tr:not(:first-child):hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.countryTable tr.selected {
+    background-color: #f0f8ff;
+    border-color: #328ef8;
+}
+.deleteButton {
+    float: right;
+    margin-left: 20px;
+    display: none;
+}
+.deleteButton.visible {
+    display: flex;
+    animation: fadeIn 0.3s;
+}
+
+.addButton {
+    float: right
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.btn {
+    display: inline-block;
+    padding: 10px 16px;
+    margin: 0 8px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+.btnAdd{ 
+    background-color: #4A90E2;
+}
+.btnDelete { 
+    background-color: #FF5A5F; 
+}
+.btnAdd:hover {
+    background-color: #3A80D2;
+}
+.btnDelete:hover {
+    background-color: #ff3b40;
+}
+
+#addCountryPopup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateY(-60px);
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100px;
+    background-color: rgba(0,0,0,0.5);
+}
+.popupContent {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 12px;
+    width: 80%;
+    max-width: 500px;
+}
+.closePopup {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.closePopup:hover {
+    color: black;
+}
+
+/*---------City-------------*/
+
+.cityTable {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 12px;
+}
+.cityTable th, .cityTable td {
+    padding: 16px;
+    text-align: left;
+}
+.cityTable th {
+    background-color: #ffffff;
+    color: #484848;
+    font-weight: 600;
+    border-bottom: 1px solid #ebebeb;
+    padding: 12px 16px;
+}
+.cityTable tr:not(:first-child) {
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border: 1px solid #000;
+    border-radius: 12px;
+}
+.cityTable tr:not(:first-child) td:first-child {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.cityTable tr:not(:first-child) td:last-child {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.cityTable tr:not(:first-child):hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.cityTable tr.selected {
+    background-color: #f0f8ff;
+    border-color: #328ef8;
+}
+.deleteButton {
+    float: right;
+    margin-left: 20px;
+    display: none;
+}
+.deleteButton.visible {
+    display: flex;
+    animation: fadeIn 0.3s;
+}
+
+.addButton {
+    float: right
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.btn {
+    display: inline-block;
+    padding: 10px 16px;
+    margin: 0 8px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+.btnAdd{ 
+    background-color: #4A90E2;
+}
+.btnDelete { 
+    background-color: #FF5A5F; 
+}
+.btnAdd:hover {
+    background-color: #3A80D2;
+}
+.btnDelete:hover {
+    background-color: #ff3b40;
+}
+
+#addCityPopup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateY(-60px);
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100px;
+    background-color: rgba(0,0,0,0.5);
+}
+.popupContent {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 12px;
+    width: 80%;
+    max-width: 500px;
+}
+.closePopup {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.closePopup:hover {
+    color: black;
+}
+
+/*---------CancelPolicy-------------*/
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+    position: relative;
+    border: 1px solid gray;
+}
+h2 {
+    color: #4A90E2;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.cancelPolicyTable {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 12px;
+}
+.cancelPolicyTable th, .cancelPolicyTable td {
+    padding: 16px;
+    text-align: left;
+}
+.cancelPolicyTable th {
+    background-color: #ffffff;
+    color: #484848;
+    font-weight: 600;
+    border-bottom: 1px solid #ebebeb;
+    padding: 12px 16px;
+}
+.cancelPolicyTable tr:not(:first-child) {
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border: 1px solid #000;
+    border-radius: 12px;
+}
+.cancelPolicyTable tr:not(:first-child) td:first-child {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.cancelPolicyTable tr:not(:first-child) td:last-child {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.cancelPolicyTable tr:not(:first-child):hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.cancelPolicyTable tr.selected {
+    background-color: #f0f8ff;
+    border-color: #328ef8;
+}
+.deleteButton {
+    float: right;
+    margin-left: 20px;
+    display: none;
+}
+.deleteButton.visible {
+    display: flex;
+    animation: fadeIn 0.3s;
+}
+
+.addButton {
+    float: right
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.btn {
+    display: inline-block;
+    padding: 10px 16px;
+    margin: 0 8px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+.btnAdd{ 
+    background-color: #4A90E2;
+}
+.btnDelete { 
+    background-color: #FF5A5F; 
+}
+.btnAdd:hover {
+    background-color: #3A80D2;
+}
+.btnDelete:hover {
+    background-color: #ff3b40;
+}
+
+#addCancelPolicyPopup {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100px;
+    top: 0;
+    left: 0;
+    transform: translateY(-60px);
+    background-color: rgba(0,0,0,0.5);
+}
+.popupContent {
+    border-radius: 12px;
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+}
+.closePopup {
+    font-size: 28px;
+    color: #aaa;
+    float: right;
+    font-weight: bold;
+    cursor: pointer;
+}
+.closePopup:hover {
+    color: black;
+}
+
+
