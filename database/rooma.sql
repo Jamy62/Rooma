@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 17, 2024 at 08:57 PM
+-- Generation Time: Jan 15, 2025 at 02:52 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -2514,8 +2514,8 @@ INSERT INTO `users` (`UserID`, `UserEmail`, `UserName`, `UserPp`, `UserPassword`
 (1, 'User123ll@gmail.com', 'Annie', 'profileImg/_IMG_6197.png', 'fewdaFEWF31231#@!', '453664354', 485, 'Verified', 'Verified'),
 (2, 'jamy123ll@gmail.com', 'Minnn', 'profileImg/_March 2015 B.png', 'fd34GF#@', '6565465446', 0, 'Verified', 'Verified'),
 (3, 'Bugee2@gmail.com', 'Bugee', 'profileImg/_Screenshot (57).png', 'Bugee23@#', '435436436', 0, NULL, 'Verified'),
-(4, 'Bugggggg@gmail.com', 'Bug', 'profileImg/_Screenshot 2024-07-14 153211.png', 'Jamy123!@#', '54353636', 0, 'Verified', NULL),
-(5, 'jamy124ll@gmail.com', 'Jamie', 'profileImg/_images.jpg', 'Jamy124..,..,!@#', '44565445', 0, 'Verified', 'Verified');
+(4, 'Bugggggg@gmail.com', 'Bug', 'profileImg/_Screenshot 2024-07-14 153211.png', 'fwfewfewfewevh~@!', '54353636', 0, 'Verified', NULL),
+(5, 'jamy124ll@gmail.com', 'Jamie', 'profileImg/_images.jpg', 'huhHui`231!@', '44565445', 0, 'Verified', 'Verified');
 
 -- --------------------------------------------------------
 
